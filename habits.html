@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Habit Tracker | Planify</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <h1>Planify</h1>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="daily.html">Daily Planner</a></li>
+        <li><a href="weekly.html">Weekly Planner</a></li>
+        <li><a href="monthly.html">Monthly Planner</a></li>
+        <li><a href="goals.html">Goals</a></li>
+        <li><a href="habits.html" class="active">Habits Tracker</a></li>
+        <li><a href="profile.html">Profile</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HABIT TRACKER SECTION -->
+  <section>
+    <h3 id="quote">"Dream it.Plan it.Do it."✨🎯</h3>
+    <h2>Habit Tracker</h2>
+    
+    <p>Track your daily habits and stay consistent. Check off habits as you complete them each day.</p>
+
+    <div class="habit-grid">
+      <!-- Sample habit card -->
+      <div class="card">
+        <h3>Exercise</h3>
+        <p>Daily workout or stretching</p>
+        <ul class="habit-list">
+          <li><input type="checkbox" id="exercise-mon"> Mon</li>
+          <li><input type="checkbox" id="exercise-tue"> Tue</li>
+          <li><input type="checkbox" id="exercise-wed"> Wed</li>
+          <li><input type="checkbox" id="exercise-thu"> Thu</li>
+          <li><input type="checkbox" id="exercise-fri"> Fri</li>
+          <li><input type="checkbox" id="exercise-sat"> Sat</li>
+          <li><input type="checkbox" id="exercise-sun"> Sun</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Meditation</h3>
+        <p>Daily mindfulness practice</p>
+        <ul class="habit-list">
+          <li><input type="checkbox" id="meditation-mon"> Mon</li>
+          <li><input type="checkbox" id="meditation-tue"> Tue</li>
+          <li><input type="checkbox" id="meditation-wed"> Wed</li>
+          <li><input type="checkbox" id="meditation-thu"> Thu</li>
+          <li><input type="checkbox" id="meditation-fri"> Fri</li>
+          <li><input type="checkbox" id="meditation-sat"> Sat</li>
+          <li><input type="checkbox" id="meditation-sun"> Sun</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Reading</h3>
+        <p>Read for 30 minutes</p>
+        <ul class="habit-list">
+          <li><input type="checkbox" id="reading-mon"> Mon</li>
+          <li><input type="checkbox" id="reading-tue"> Tue</li>
+          <li><input type="checkbox" id="reading-wed"> Wed</li>
+          <li><input type="checkbox" id="reading-thu"> Thu</li>
+          <li><input type="checkbox" id="reading-fri"> Fri</li>
+          <li><input type="checkbox" id="reading-sat"> Sat</li>
+          <li><input type="checkbox" id="reading-sun"> Sun</li>
+        </ul>
+      </div>
+
+      <!-- Add more habits as needed -->
+    </div>
+
+    <!-- Notes section -->
+    <div class="notes">
+      <h2>Notes</h2>
+      <textarea placeholder="Write notes about your habits or progress..."></textarea>
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 Planify. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
