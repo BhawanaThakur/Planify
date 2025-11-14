@@ -46,7 +46,7 @@ header h1 {
 nav ul {
   display: flex;
   text-decoration-color: #2c2008;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 nav ul li a {
@@ -260,4 +260,5 @@ footer a {
 
 footer a:hover {
   text-decoration: underline;
+
 }
