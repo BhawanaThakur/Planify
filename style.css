@@ -55,6 +55,8 @@ nav ul li a {
   border-radius: 20px;
   transition: all 0.3s;
   background-color: #e0d2bfb8;
+  width:auto;
+  flex-wrap:wrap;
 }
 
 nav ul li a:hover,
@@ -262,3 +264,4 @@ footer a:hover {
   text-decoration: underline;
 
 }
+
