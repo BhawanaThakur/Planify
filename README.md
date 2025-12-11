@@ -1,4 +1,4 @@
-##**📘 Planify – Personal Planner Website**
+###**📘 Planify – Personal Planner Website**
 
 *A simple planning and productivity website to manage your daily, weekly, and monthly tasks.*
 
